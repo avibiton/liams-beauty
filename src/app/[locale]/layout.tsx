@@ -27,16 +27,16 @@ export async function generateMetadata({
     description: t("description"),
     metadataBase: new URL(siteUrl),
     alternates: {
-      canonical: `${siteUrl}/${locale}`,
+      canonical: isHe ? siteUrl : `${siteUrl}/en`,
       languages: {
-        he: `${siteUrl}/he`,
+        he: siteUrl,
         en: `${siteUrl}/en`,
       },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `${siteUrl}/${locale}`,
+      url: isHe ? siteUrl : `${siteUrl}/en`,
       siteName: "Liam's Beauty",
       locale: isHe ? "he_IL" : "en_US",
       type: "website",
