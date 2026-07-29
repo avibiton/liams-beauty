@@ -9,6 +9,7 @@ import FAQ from "@/components/sections/FAQ";
 import InstagramSnippet from "@/components/sections/InstagramSnippet";
 import Contact from "@/components/sections/Contact";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <ScrollToTop />
     </>
   );
 }
