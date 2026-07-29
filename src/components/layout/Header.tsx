@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { BUSINESS_CONFIG } from "@/lib/config";
@@ -49,7 +49,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
         {/* Logo */}
         <Link
-          href={`/${locale}`}
+          href="/"
           className="transition-opacity hover:opacity-80"
           aria-label="Liam's Beauty — דף הבית"
         >
