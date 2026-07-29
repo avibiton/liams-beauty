@@ -6,6 +6,7 @@ import Services from "@/components/sections/Services";
 import Gallery from "@/components/sections/Gallery";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
+import InstagramSnippet from "@/components/sections/InstagramSnippet";
 import Contact from "@/components/sections/Contact";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Gallery />
         <Testimonials />
         <FAQ />
+        <InstagramSnippet />
         <Contact />
       </main>
       <Footer />

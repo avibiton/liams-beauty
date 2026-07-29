@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-3 md:px-6">
         <div
           className="grid gap-2 md:gap-3"
-          style={{ gridTemplateColumns: "1fr 2.1fr 1fr", height: "clamp(220px, 42vw, 520px)" }}
+          style={{ gridTemplateColumns: "1fr 2.1fr 1fr", height: "clamp(320px, 58vw, 720px)" }}
         >
           {/* Column 1 */}
           <div className="flex flex-col gap-2 md:gap-3">
@@ -31,7 +31,7 @@ export default function Hero() {
                 alt=""
                 fill
                 className="object-cover object-center"
-                sizes="15vw"
+                sizes="25vw"
               />
             </div>
             <div className="hidden rounded-xl bg-beige px-4 py-3 md:block">
@@ -43,13 +43,13 @@ export default function Hero() {
 
           {/* Column 2 — main */}
           <div className="relative overflow-hidden rounded-xl">
-            <Image
-              src="/assets/images/lb1_after.jpeg"
-              alt=""
-              fill
-              className="object-cover object-top"
-              priority
-              sizes="40vw"
+            <video
+              src="/assets/videos/lb1_after.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 h-full w-full object-cover object-top"
             />
           </div>
 
@@ -61,7 +61,7 @@ export default function Hero() {
                 alt=""
                 fill
                 className="object-cover object-center"
-                sizes="15vw"
+                sizes="25vw"
               />
             </div>
             <div className="hidden rounded-xl bg-beige px-4 py-3 md:flex md:flex-col md:justify-between">
