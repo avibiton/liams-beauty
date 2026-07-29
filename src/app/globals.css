@@ -1,26 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&family=Heebo:wght@300;400;500;600;700;800&display=swap");
+
 @import "tailwindcss";
 
+@theme {
+  /* Brand colors from Liam's Beauty flyers */
+  --color-cream: #faf5ef;
+  --color-beige: #efe5d7;
+  --color-beige-dark: #d4c4b0;
+  --color-brown-50: #faf5ef;
+  --color-brown-100: #efe5d7;
+  --color-brown-200: #d4c4b0;
+  --color-brown-300: #b89880;
+  --color-brown-400: #9c7257;
+  --color-brown-500: #7b4f2e;
+  --color-brown-600: #5c3a20;
+  --color-brown-700: #3d2010;
+  --color-brown-800: #2c1a0e;
+  --color-brown-900: #1a0e08;
+  --color-gold-300: #ddb86a;
+  --color-gold-400: #c4933f;
+  --color-gold-500: #a87830;
+  --color-gold-600: #8a6020;
+
+  /* Typography */
+  --font-display: "Secular One", system-ui, sans-serif;
+  --font-body: "Heebo", system-ui, sans-serif;
+  --font-sans: "Heebo", system-ui, sans-serif;
+
+  /* Spacing & radius */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf5ef;
+  --foreground: #2c1a0e;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RTL/LTR direction support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Font utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Smooth section transitions */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-beige);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brown-400);
+  border-radius: 3px;
+}
+
+/* Focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-gold-400);
+  outline-offset: 2px;
+  border-radius: 4px;
 }

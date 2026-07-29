@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "switchLang": "עברית"
+  },
+  "hero": {
+    "badge": "Or Akiva · Caesarea · Pardes Hanna",
+    "headline": "Perfect Brows.\nStunning Hair.",
+    "subheadline": "Professional beauty treatments that speak for themselves — results that last, an experience you won't forget.",
+    "cta1": "Book an Appointment",
+    "cta2": "Message on WhatsApp",
+    "service1": "Eyebrow Design",
+    "service2": "Hair Straightening",
+    "service3": "Or Akiva & Caesarea",
+    "scrollDown": "Scroll Down"
+  },
+  "about": {
+    "badge": "About Us",
+    "headline": "Hi, I'm Liam —\nand every client has a story.",
+    "p1": "From the very first pair of tweezers I picked up, I knew eyebrow design was more than beauty — it's confidence, femininity, and feeling whole. I founded Liam's Beauty out of a genuine love for this craft and for every woman who walks through my door.",
+    "p2": "I specialize in custom eyebrow design for every face shape and professional hair straightening treatments — using Ministry of Health approved materials, advanced technology, and attention to every detail. Every client leaves with results that last — and a smile that stays.",
+    "stat1Value": "500+",
+    "stat1Label": "Happy Clients",
+    "stat2Value": "5★",
+    "stat2Label": "Average Rating",
+    "stat3Value": "3+",
+    "stat3Label": "Years of Experience",
+    "cta": "Book a Session"
+  },
+  "services": {
+    "badge": "What I Offer",
+    "headline": "Services That Speak\nYour Beauty Language",
+    "subheadline": "Each service is fully personalized to your needs — because no two women are the same.",
+    "eyebrows": {
+      "title": "Eyebrow Services",
+      "items": [
+        {
+          "name": "Eyebrow Design & Shaping",
+          "description": "Professional face analysis and eyebrow design that flatters your features — a precise process that changes everything.",
+          "price": "From ₪60",
+          "duration": "~45 min"
+        },
+        {
+          "name": "Eyebrow Renovation & Fill",
+          "description": "Reshape thinned or sparse brows — building a full, perfectly defined arch that enhances your face.",
+          "price": "From ₪80",
+          "duration": "~60 min"
+        },
+        {
+          "name": "Eyebrow Threading",
+          "description": "Gentle, precise hair removal with the threading technique — no redness, no chemicals, sharp results.",
+          "price": "From ₪50",
+          "duration": "~20 min"
+        },
+        {
+          "name": "Eyebrow Tinting",
+          "description": "Color that defines, flatters, and lasts — perfectly matched to your skin tone and hair color.",
+          "price": "From ₪40",
+          "duration": "~30 min"
+        }
+      ]
+    },
+    "hair": {
+      "title": "Hair Straightening",
+      "items": [
+        {
+          "name": "Brazilian Straightening",
+          "description": "Smooth, healthy, shiny hair that lasts months — suitable for all hair types, even thick and curly.",
+          "price": "From ₪350",
+          "duration": "3–4 hours"
+        },
+        {
+          "name": "Japanese Straightening",
+          "description": "Permanent, powerful straightening for highly textured hair — completely straight results that last.",
+          "price": "From ₪500",
+          "duration": "3–5 hours"
+        },
+        {
+          "name": "Keratin Treatment",
+          "description": "Deep hair restoration + straightening — with natural keratin that adds shine, softness and easy management.",
+          "price": "From ₪400",
+          "duration": "2–3 hours"
+        },
+        {
+          "name": "Restorative Hair Treatment",
+          "description": "Intensive treatment with approved ingredients to restore damaged, dry, and brittle hair — visible results from the first visit.",
+          "price": "From ₪200",
+          "duration": "~90 min"
+        }
+      ]
+    },
+    "cta": "Book This Service",
+    "priceNote": "* Prices are estimates — final price is determined by hair length and type."
+  },
+  "gallery": {
+    "badge": "Our Work",
+    "headline": "Before & After —\nThe Results Speak for Themselves",
+    "subheadline": "Every photo is a transformation story. Get to know our work.",
+    "all": "All",
+    "eyebrows": "Eyebrows",
+    "hair": "Hair",
+    "viewFull": "Click to Enlarge"
+  },
+  "testimonials": {
+    "badge": "Client Reviews",
+    "headline": "Because a Real Recommendation\nIs Worth More Than Any Ad",
+    "items": [
+      {
+        "name": "Shir Cohen",
+        "location": "Or Akiva",
+        "text": "Liam is magical! My eyebrows look like I never knew they could. I've gotten so many compliments since the treatment.",
+        "service": "Eyebrow Design",
+        "rating": 5
+      },
+      {
+        "name": "Mia Levi",
+        "location": "Caesarea",
+        "text": "I got a Brazilian straightening from Liam and I can't believe the results! After years of fighting frizzy hair — finally smooth, shiny locks.",
+        "service": "Brazilian Straightening",
+        "rating": 5
+      },
+      {
+        "name": "Noa Avraham",
+        "location": "Pardes Hanna",
+        "text": "The highest level of professionalism. Liam listens, explains, and customizes the treatment perfectly. For the first time I felt someone truly saw what I needed.",
+        "service": "Eyebrow Threading",
+        "rating": 5
+      },
+      {
+        "name": "Dana Mizrahi",
+        "location": "Hadera",
+        "text": "I visited for the first time and left with dream eyebrows. Already on my third visit. Liam is the best!",
+        "service": "Eyebrow Design",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "headline": "Everything You Wanted\nto Know",
+    "items": [
+      {
+        "q": "How long does straightening last?",
+        "a": "Brazilian straightening typically lasts 3–5 months depending on hair type and maintenance. Japanese straightening lasts 6–12 months. Keratin lasts 2–4 months. I always recommend professional shampoo and conditioner to preserve the results."
+      },
+      {
+        "q": "Is eyebrow shaping painful?",
+        "a": "It depends on the method. Threading feels like a gentle pinch and passes quickly. Waxing feels similar. Most clients adapt quickly and some even fall asleep during the treatment. Remember — 15 seconds of minor discomfort for perfect eyebrows that last weeks!"
+      },
+      {
+        "q": "Is straightening suitable for all hair types?",
+        "a": "Yes! There are different types of straightening suited for every hair type — from fine and delicate to thick and curly. At your first appointment, I check your hair condition and recommend the best solution."
+      },
+      {
+        "q": "How far in advance should I do eyebrow design before an event?",
+        "a": "I recommend getting eyebrows done 3–5 days before a big event, so the skin can calm down from any minor redness (rare) — and you'll arrive at the event with perfect brows."
+      },
+      {
+        "q": "How do I get to the studio?",
+        "a": "The studio is located in Or Akiva — convenient location with parking. The exact address is sent after appointment confirmation. Home visits in the Or Akiva/Caesarea area can also be arranged (by prior arrangement)."
+      },
+      {
+        "q": "What is the cancellation policy?",
+        "a": "We understand things happen — you can cancel or reschedule up to 24 hours in advance at no charge. Later cancellations may incur a partial cancellation fee."
+      },
+      {
+        "q": "Are the materials you use safe?",
+        "a": "Absolutely. I use only materials approved by the Israeli Ministry of Health — tested and safe. Clients with sensitivities are welcome to inform me in advance so I can tailor the treatment accordingly."
+      },
+      {
+        "q": "Can I bring children?",
+        "a": "Of course! The studio is friendly and welcoming. If you have a young child, let me know in advance and we'll arrange the treatment as conveniently as possible for you."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "headline": "Ready for the Next Step?\nWe'd Love to Hear from You!",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone",
+      "service": "Requested Service",
+      "serviceOptions": {
+        "placeholder": "Select a service",
+        "eyebrowDesign": "Eyebrow Design",
+        "eyebrowFill": "Eyebrow Renovation / Fill",
+        "threading": "Eyebrow Threading",
+        "eyebrowColor": "Eyebrow Tinting",
+        "brazilianStraighten": "Brazilian Straightening",
+        "japaneseStraighten": "Japanese Straightening",
+        "keratin": "Keratin Treatment",
+        "hairTreatment": "Restorative Hair Treatment",
+        "other": "Other / Consultation"
+      },
+      "date": "Preferred Date",
+      "submit": "Send Inquiry",
+      "submitting": "Sending...",
+      "successTitle": "Message Received!",
+      "successMsg": "Thank you {name}! I'll get back to you within a few hours to confirm your appointment. 💛",
+      "errorMsg": "There was an error sending. Please try again or contact us via WhatsApp.",
+      "required": "Required field",
+      "phoneInvalid": "Invalid phone number"
+    },
+    "info": {
+      "phone": "Phone / WhatsApp",
+      "hours": "Business Hours",
+      "location": "Location",
+      "social": "Follow Us"
+    },
+    "mapTitle": "Liam's Beauty Location — Or Akiva"
+  },
+  "whatsapp": {
+    "label": "Message on WhatsApp",
+    "ariaLabel": "Open WhatsApp chat with Liam's Beauty"
+  },
+  "footer": {
+    "tagline": "Eyebrow Design · Hair Straightening · Or Akiva & Caesarea",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyright": "© {year} Liam's Beauty. All rights reserved.",
+    "madeWith": "Made with love for women in the Sharon area"
+  },
+  "booking": {
+    "title": "Book an Appointment",
+    "subtitle": "Choose a time that works for you — we'll handle the rest",
+    "back": "Back to Home"
+  },
+  "meta": {
+    "title": "Liam's Beauty | Eyebrow Design & Hair Straightening — Or Akiva & Caesarea",
+    "description": "Professional eyebrow design and personalized hair straightening in Or Akiva and Caesarea. Book your appointment now ✨"
+  }
+}

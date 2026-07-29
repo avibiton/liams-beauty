@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Liam's Beauty — אתר תדמית ולידים
 
-## Getting Started
+אתר מקצועי ל-Liam's Beauty — עיצוב גבות והחלקות שיער באור עקיבא וקיסריה.
 
-First, run the development server:
+---
+
+## 🚀 התקנה והרצה
 
 ```bash
+npm install
+cp .env.example .env.local
+# ערכי את .env.local (ראי למטה)
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+האתר ירוץ על: **http://localhost:3000** (מפנה ל-/he אוטומטית)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Build לייצור
+npm run build && npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ הגדרות חשובות
 
-To learn more about Next.js, take a look at the following resources:
+### 📱 עדכון טלפון / וואטסאפ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ערכי [`src/lib/config.ts`](src/lib/config.ts):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```ts
+phone: "053-334-3135",
+phoneRaw: "0533343135",
+whatsapp: "972533343135",
+```
 
-## Deploy on Vercel
+### 📅 קישור הזמנות
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ב-`.env.local`:
+```env
+NEXT_PUBLIC_BOOKING_URL=https://calendly.com/liams-beauty
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📧 מייל מטופס קשר (Resend)
+
+```env
+RESEND_API_KEY=re_xxxxxxxx
+EMAIL_FROM=noreply@liamsbeauty.co.il
+EMAIL_TO=liams.beauty@gmail.com
+```
+
+הרשמי חינם ב-[resend.com](https://resend.com).
+
+### 📊 Google Analytics
+
+```env
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+---
+
+## 🖼️ הוספת מדיה
+
+קבצים: `public/assets/images/` ו-`public/assets/videos/`
+
+להוספה לגלריה — ערכי `GALLERY_ITEMS` ב-`src/lib/config.ts`.
+
+**תמונת פורטרט של ליאם:** הוסיפי קובץ `public/assets/images/liam-portrait.jpg`
+ואז עדכני את `About.tsx` (מסומן TODO).
+
+---
+
+## 🌐 שפות
+
+- תרגומים עברית: `src/messages/he.json`
+- תרגומים אנגלית: `src/messages/en.json`
+
+---
+
+## 🚀 פריסה — Vercel (מומלץ)
+
+```bash
+npx vercel --prod
+```
+
+הגדירי את משתני הסביבה ב-Vercel Dashboard → Settings → Environment Variables.
+
+---
+
+## 📌 צעדים הבאים
+
+1. קני דומיין `liamsbeauty.co.il`
+2. פרסי ב-Vercel — חינם לפרויקטים Next.js
+3. הגדירי Google Business Profile ב-[business.google.com](https://business.google.com)
+4. הוסיפי קישור לאתר ב-Instagram @liams.beauty
+5. שלחי sitemap ב-Google Search Console
